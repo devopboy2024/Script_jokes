@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: yellow;
+}
+
+.next {
+  position: absolute;
+  top: 70%;
+  /*top sa chalega */
+  right: 200px;
+  padding: 10px;
+  font-size: 30px;
+  background-color: lightgreen;
+  border-radius: 0px 0px 0px 10px;
+}
+
+.previous {
+  top: 70%;
+  left: 200px;
+  padding: 10px;
+  font-size: 30px;
+  background-color: lightgreen;
+  border-radius: 0px 0px 10px 0px;
+  position: absolute;
+}
+
+.container {
+  position: absolute;
+  margin-left: 100px;
+  margin-right: 100px;
+  top: 40%;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  align-items: center;
+  font-size: 40px;
+  border: 6px solid green;
+}
+
+.joke {
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: center;
+  background-color: white;
+  border: 2px solid black;
+  font-size: 50px;
+}
